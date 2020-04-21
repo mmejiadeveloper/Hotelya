@@ -1,0 +1,2 @@
+
+para  que funcione  el  axios  dee ir   su script despues de el script de vue js

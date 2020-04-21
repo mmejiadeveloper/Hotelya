@@ -1,0 +1,298 @@
+.margin-row {
+    margin-top: 30px;
+}
+
+/* 
+#habitacion {
+    margin: 10px;
+    border: 1px solid #c2c2c2;
+    border-radius: 11px;
+    background: #dddddd;
+    height: 160px;
+    padding: 10px;
+} */
+
+.habitacion-recolor {
+    border: 1px solid #c2c2c2;
+    border-radius: 11px;
+    background: #dddddd;
+}
+
+#habitacion:hover {
+    background: #f9f9f9;
+    cursor: pointer;
+}
+
+input:invalid+span:after {
+    content: '✖';
+    color: #f00;
+    padding-left: 5px;
+}
+
+input:valid+span:after {
+    content: '✓';
+    color: #26b72b;
+    padding-left: 5px;
+}
+
+.rowmargin {
+    margin-top: 15px;
+}
+
+.paginador-disabled {
+    pointer-events: none !important;
+    color: #c2c2c2 !important;
+}
+
+.paginador {
+    margin-top: 12px;
+    text-align: center;
+    font-size: 23px;
+}
+
+.imagen-habitacion {
+    margin-top: 20px;
+}
+
+.div-habitacion-padre {
+    height: 260px;
+}
+
+.div-habitacion-fondo {
+    height: 100%;
+}
+
+.ocupado {
+    font-size: 30px;
+    color: red;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.factura {
+    font-size: 30px;
+    color: #585858;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.factura:hover {
+    color: #adadad;
+}
+
+.liberar {
+    font-size: 30px;
+    color: blue;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.liberar:hover {
+    color: aqua;
+}
+
+.tomarhabitacion {
+    padding-top: 20px;
+    font-size: 30px;
+    color: green;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.tomarhabitacion:hover {
+    color: rgb(0, 168, 0);
+}
+
+.div-iconoes-estado {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.spanhabitacion {
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.spannrohabita {
+    font-size: 18px;
+    color: #00b51f;
+    font-weight: bolder;
+}
+
+.habitacion-ocupada {
+    background: #ddc4c4;
+}
+
+.habitacion-libre {
+    background: #c3d9c5;
+}
+
+.puertaicono {
+    font-size: 65px;
+}
+
+.tabla-reservas table, tr, td {
+    border: 1px solid #c2c2c2 !important;
+}
+
+.tabla-reservas th {
+    border: 1px solid #585858 !important;
+}
+
+.tabla-reservas thead {
+    color: white;
+    background-color: #585858;
+}
+
+.tabla-reservas tbody {
+    background-color: white;
+}
+
+.w-20 {
+    width: 20%;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.w-75 {
+    width: 75%;
+}
+
+.confirmado {
+    color: green;
+    font-size: 25px;
+}
+
+.sinconfirmar {
+    color: red;
+    font-size: 25px;
+}
+
+.divestado_carga {
+    padding: 0;
+    height: 35px;
+    font-size: 19px;
+    font-weight: 20px;
+    font-weight: bolder;
+}
+
+.fixedfooter {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.labelpagos_reservas {
+    font-size: 25px;
+}
+
+.inputpagos_reservas {
+    font-size: 25px;
+    text-align: center;
+}
+
+.iconspanbillete {
+    background: #c2c2c2 !important;
+    border: 1px solid #adadad !important;
+}
+
+.iconspanbillete i {
+    font-size: 20px;
+}
+
+.fixedheader {
+    position: fixed;
+    width: 100%;
+}
+
+.formualario-crear-edita {
+    border: 1px solid #ffffff;
+    height: 287px;
+    background: #f3f3f3;
+    border-radius: 11px
+}
+
+.formualario-crear-edita-header {
+    font-size: 30px;
+    color: white;
+    background: #8a8a8a;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 6px;
+}
+
+.noleftpadding {
+    padding-left: 0px;
+}
+
+.reservaconfirmada {
+    color: green;
+    font-weight: bolder;
+    font-size: 35px;
+}
+
+.reservapendiente {
+    color: red;
+    font-weight: bolder;
+    font-size: 35px;
+}
+
+.reportegrafica {
+    background-color: white;
+    border-top: 3px solid #3c8dbc;
+}
+
+.filtros {
+    background: white;
+    margin: 5px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    border-top: 3px solid #3c8dbc;
+}
+
+.filtrosv2 {
+    background: white;
+    margin: 0px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    border-top: 3px solid #585858;
+}
+
+.toptitulo {
+    padding-top: 48px;
+}
+
+.iconoboton {
+    font-size: 20px;
+}
+
+.boton-descargar {
+    background: #585858;
+    border: 1px solid #c2c2c2;
+}
+
+.boton-descargar:hover {
+    background: #9c9c9c;
+    border: 1px solid #c2c2c2;
+}
+
+.boton-ver {
+    background: #342eb4;
+    border: 1px solid #9ab5ff;
+}
+
+.boton-ver:hover {
+    background: #675ff6;
+    border: 1px solid #9ab5ff;
+}
+
+.falsotitulo {
+    text-align: center;
+    color: red;
+}
